@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  fontSize: number;
+
+  setFontSize(event: number) {    
+    this.fontSize = event;
+  }
 }
